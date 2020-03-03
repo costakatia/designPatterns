@@ -1,0 +1,5 @@
+Composite is a structural design pattern
+that lets you compose objects in a tree
+structure and allow clientes to work
+with thise objects aAs if these were individual
+objects.

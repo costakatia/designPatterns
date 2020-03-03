@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="fdeacd22-c914-4878-bffc-8723f61e52ed" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1YQvURiR4tw6l8DkZetonMAbJqg" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="Behavioural.state" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/state" />
+      <recent name="$PROJECT_DIR$/src/main/java/Behavioural/State" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Main (1)">
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Structural.singleton.bridge.Client" />
+      <module name="java8" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Structural.singleton.bridge.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClientDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Structural.singleton.composite.ClientDemo" />
+      <module name="java8" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Structural.singleton.composite.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Hunter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Structural.singleton.FlyweigthDesing.Hunter" />
+      <module name="java8" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Structural.singleton.FlyweigthDesing.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Behavioural.state.Main" />
+      <module name="java8" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Behavioural.state.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="funcionaIInterface.Main" />
+      <module name="java8" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Structural.singleton.funcionaIInterface.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Structural.singleton.Main" />
+      <module name="java8" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Structural.singleton.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.Client" />
+        <item itemvalue="Application.ClientDemo" />
+        <item itemvalue="Application.Hunter" />
+        <item itemvalue="Application.Main (1)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fdeacd22-c914-4878-bffc-8723f61e52ed" name="Default Changelist" comment="" />
+      <created>1582887647952</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1582887647952</updated>
+      <workItem from="1582887649497" duration="9819000" />
+      <workItem from="1583233347451" duration="20306000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1644" y="24" width="800" height="672" key="#Project_Structure" timestamp="1582889379759">
+      <screen x="1366" y="0" width="1366" height="768" />
+    </state>
+    <state x="1644" y="24" width="800" height="672" key="#Project_Structure/1366.0.1366.768/0.0.1366.728@1366.0.1366.768" timestamp="1582889379759" />
+    <state x="1786" y="169" width="515" height="383" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1583258041189">
+      <screen x="1366" y="0" width="1366" height="768" />
+    </state>
+    <state x="1786" y="169" width="515" height="383" key="#com.intellij.fileTypes.FileTypeChooser/1366.0.1366.768/0.0.1366.728@1366.0.1366.768" timestamp="1583258041189" />
+    <state x="1857" y="82" width="488" height="557" key="#com.intellij.ide.util.MemberChooser" timestamp="1583270978026">
+      <screen x="1366" y="0" width="1366" height="768" />
+    </state>
+    <state x="491" y="78" key="#com.intellij.ide.util.MemberChooser/1366.0.1366.768/0.0.1366.728@0.0.1366.728" timestamp="1583166295497" />
+    <state x="1857" y="82" width="488" height="557" key="#com.intellij.ide.util.MemberChooser/1366.0.1366.768/0.0.1366.728@1366.0.1366.768" timestamp="1583270978026" />
+    <state x="1725" y="291" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1583263407479">
+      <screen x="1366" y="0" width="1366" height="768" />
+    </state>
+    <state x="1725" y="291" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/1366.0.1366.768/0.0.1366.728@1366.0.1366.768" timestamp="1583263407479" />
+    <state width="1324" height="253" key="GridCell.Tab.0.bottom" timestamp="1583272074550">
+      <screen x="1366" y="0" width="1366" height="768" />
+    </state>
+    <state width="1324" height="172" key="GridCell.Tab.0.bottom/1366.0.1366.768/0.0.1366.728@0.0.1366.728" timestamp="1582910787942" />
+    <state width="1324" height="253" key="GridCell.Tab.0.bottom/1366.0.1366.768/0.0.1366.728@1366.0.1366.768" timestamp="1583272074550" />
+    <state width="1324" height="253" key="GridCell.Tab.0.center" timestamp="1583272074550">
+      <screen x="1366" y="0" width="1366" height="768" />
+    </state>
+    <state width="1324" height="172" key="GridCell.Tab.0.center/1366.0.1366.768/0.0.1366.728@0.0.1366.728" timestamp="1582910787942" />
+    <state width="1324" height="253" key="GridCell.Tab.0.center/1366.0.1366.768/0.0.1366.728@1366.0.1366.768" timestamp="1583272074550" />
+    <state width="1324" height="253" key="GridCell.Tab.0.left" timestamp="1583272074549">
+      <screen x="1366" y="0" width="1366" height="768" />
+    </state>
+    <state width="1324" height="172" key="GridCell.Tab.0.left/1366.0.1366.768/0.0.1366.728@0.0.1366.728" timestamp="1582910787942" />
+    <state width="1324" height="253" key="GridCell.Tab.0.left/1366.0.1366.768/0.0.1366.728@1366.0.1366.768" timestamp="1583272074549" />
+    <state width="1324" height="253" key="GridCell.Tab.0.right" timestamp="1583272074550">
+      <screen x="1366" y="0" width="1366" height="768" />
+    </state>
+    <state width="1324" height="172" key="GridCell.Tab.0.right/1366.0.1366.768/0.0.1366.728@0.0.1366.728" timestamp="1582910787942" />
+    <state width="1324" height="253" key="GridCell.Tab.0.right/1366.0.1366.768/0.0.1366.728@1366.0.1366.768" timestamp="1583272074550" />
+    <state width="1324" height="216" key="GridCell.Tab.1.bottom" timestamp="1583239683772">
+      <screen x="1366" y="0" width="1366" height="768" />
+    </state>
+    <state width="1324" height="216" key="GridCell.Tab.1.bottom/1366.0.1366.768/0.0.1366.728@1366.0.1366.768" timestamp="1583239683772" />
+    <state width="1324" height="216" key="GridCell.Tab.1.center" timestamp="1583239683772">
+      <screen x="1366" y="0" width="1366" height="768" />
+    </state>
+    <state width="1324" height="216" key="GridCell.Tab.1.center/1366.0.1366.768/0.0.1366.728@1366.0.1366.768" timestamp="1583239683772" />
+    <state width="1324" height="216" key="GridCell.Tab.1.left" timestamp="1583239683772">
+      <screen x="1366" y="0" width="1366" height="768" />
+    </state>
+    <state width="1324" height="216" key="GridCell.Tab.1.left/1366.0.1366.768/0.0.1366.728@1366.0.1366.768" timestamp="1583239683772" />
+    <state width="1324" height="216" key="GridCell.Tab.1.right" timestamp="1583239683772">
+      <screen x="1366" y="0" width="1366" height="768" />
+    </state>
+    <state width="1324" height="216" key="GridCell.Tab.1.right/1366.0.1366.768/0.0.1366.728@1366.0.1366.768" timestamp="1583239683772" />
+    <state x="1582" y="21" width="924" height="679" key="Maven.ArtifactSearchDialog" timestamp="1583270992275">
+      <screen x="1366" y="0" width="1366" height="768" />
+    </state>
+    <state x="1582" y="21" width="924" height="679" key="Maven.ArtifactSearchDialog/1366.0.1366.768/0.0.1366.728@1366.0.1366.768" timestamp="1583270992275" />
+    <state x="374" y="0" width="992" height="728" key="SettingsEditor" timestamp="1582889780047">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="374" y="0" width="992" height="728" key="SettingsEditor/1366.0.1366.768/0.0.1366.728@1366.0.1366.768" timestamp="1582889780047" />
+    <state x="1732" y="190" key="com.intellij.ide.util.TipDialog" timestamp="1583233348529">
+      <screen x="1366" y="0" width="1366" height="768" />
+    </state>
+    <state x="1732" y="190" key="com.intellij.ide.util.TipDialog/1366.0.1366.768/0.0.1366.728@1366.0.1366.768" timestamp="1583233348529" />
+    <state x="1794" y="0" width="500" height="728" key="refactoring.ChangeSignatureDialog" timestamp="1583271152037">
+      <screen x="1366" y="0" width="1366" height="768" />
+    </state>
+    <state x="1794" y="0" width="500" height="728" key="refactoring.ChangeSignatureDialog/1366.0.1366.768/0.0.1366.728@1366.0.1366.768" timestamp="1583271152037" />
+    <state x="1712" y="89" key="search.everywhere.popup" timestamp="1582890804160">
+      <screen x="1366" y="0" width="1366" height="768" />
+    </state>
+    <state x="1712" y="89" key="search.everywhere.popup/1366.0.1366.768/0.0.1366.728@1366.0.1366.768" timestamp="1582890804160" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Structural/FlyweigthDesing/Hunter.java</url>
+          <line>5</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Structural/FlyweigthDesing/ShotGun.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
