@@ -1,0 +1,4 @@
+Memento(memories, save previous states of a object),
+is a behavioural design pattern that lets you capture
+the object's internal state without exposing its internal stucture,
+so that the object can be returned to this state later.

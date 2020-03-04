@@ -3,7 +3,8 @@ package Behavioural.visitor;
 public class ConsoleVisitor implements Visitor {
     @Override
     public void visitPiece(Piece p) {
-        System.out.println("Visiting: " + p.getName()
+        System.out.println("Visiting: "
+                + p.getName()
                 + ", color: "
                 + p.getColor());
     }
