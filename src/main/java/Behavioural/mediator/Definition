@@ -1,0 +1,3 @@
+Mediator is a behavioural design patter that lets you define
+an object that encapsulates relations between a set of objects to make
+them independent of each other.

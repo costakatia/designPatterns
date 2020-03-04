@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fdeacd22-c914-4878-bffc-8723f61e52ed" name="Default Changelist" comment="" />
+    <list default="true" id="fdeacd22-c914-4878-bffc-8723f61e52ed" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Behavioural/mediator/Component.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Behavioural/mediator/ComponentA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Behavioural/mediator/ComponentB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Behavioural/mediator/ConcreteMediator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Behavioural/mediator/Definition" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Behavioural/mediator/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Behavioural/mediator/Mediator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,6 +26,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -24,6 +37,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1YQvURiR4tw6l8DkZetonMAbJqg" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -31,6 +45,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="project.structure.last.edited" value="SDKs" />
@@ -47,7 +62,7 @@
       <recent name="$PROJECT_DIR$/src/main/java/Behavioural/State" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main (1)">
+  <component name="RunManager" selected="Application.Main (2)">
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Structural.singleton.bridge.Client" />
       <module name="java8" />
@@ -100,12 +115,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="funcionaIInterface.Main" />
+    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Behavioural.mediator.Main" />
       <module name="java8" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Structural.singleton.funcionaIInterface.*" />
+          <option name="PATTERN" value="Behavioural.mediator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,11 +143,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Client" />
         <item itemvalue="Application.ClientDemo" />
         <item itemvalue="Application.Hunter" />
-        <item itemvalue="Application.Main (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -147,7 +162,8 @@
       <option name="presentableId" value="Default" />
       <updated>1582887647952</updated>
       <workItem from="1582887649497" duration="9819000" />
-      <workItem from="1583233347451" duration="20306000" />
+      <workItem from="1583233347451" duration="24191000" />
+      <workItem from="1583323839317" duration="649000" />
     </task>
     <servers />
   </component>
@@ -163,35 +179,35 @@
       <screen x="1366" y="0" width="1366" height="768" />
     </state>
     <state x="1786" y="169" width="515" height="383" key="#com.intellij.fileTypes.FileTypeChooser/1366.0.1366.768/0.0.1366.728@1366.0.1366.768" timestamp="1583258041189" />
-    <state x="1857" y="82" width="488" height="557" key="#com.intellij.ide.util.MemberChooser" timestamp="1583270978026">
+    <state x="1857" y="82" width="488" height="557" key="#com.intellij.ide.util.MemberChooser" timestamp="1583320584795">
       <screen x="1366" y="0" width="1366" height="768" />
     </state>
     <state x="491" y="78" key="#com.intellij.ide.util.MemberChooser/1366.0.1366.768/0.0.1366.728@0.0.1366.728" timestamp="1583166295497" />
-    <state x="1857" y="82" width="488" height="557" key="#com.intellij.ide.util.MemberChooser/1366.0.1366.768/0.0.1366.728@1366.0.1366.768" timestamp="1583270978026" />
+    <state x="1857" y="82" width="488" height="557" key="#com.intellij.ide.util.MemberChooser/1366.0.1366.768/0.0.1366.728@1366.0.1366.768" timestamp="1583320584795" />
     <state x="1725" y="291" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1583263407479">
       <screen x="1366" y="0" width="1366" height="768" />
     </state>
     <state x="1725" y="291" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/1366.0.1366.768/0.0.1366.728@1366.0.1366.768" timestamp="1583263407479" />
-    <state width="1324" height="253" key="GridCell.Tab.0.bottom" timestamp="1583272074550">
+    <state width="1324" height="253" key="GridCell.Tab.0.bottom" timestamp="1583324679062">
       <screen x="1366" y="0" width="1366" height="768" />
     </state>
     <state width="1324" height="172" key="GridCell.Tab.0.bottom/1366.0.1366.768/0.0.1366.728@0.0.1366.728" timestamp="1582910787942" />
-    <state width="1324" height="253" key="GridCell.Tab.0.bottom/1366.0.1366.768/0.0.1366.728@1366.0.1366.768" timestamp="1583272074550" />
-    <state width="1324" height="253" key="GridCell.Tab.0.center" timestamp="1583272074550">
+    <state width="1324" height="253" key="GridCell.Tab.0.bottom/1366.0.1366.768/0.0.1366.728@1366.0.1366.768" timestamp="1583324679062" />
+    <state width="1324" height="253" key="GridCell.Tab.0.center" timestamp="1583324679062">
       <screen x="1366" y="0" width="1366" height="768" />
     </state>
     <state width="1324" height="172" key="GridCell.Tab.0.center/1366.0.1366.768/0.0.1366.728@0.0.1366.728" timestamp="1582910787942" />
-    <state width="1324" height="253" key="GridCell.Tab.0.center/1366.0.1366.768/0.0.1366.728@1366.0.1366.768" timestamp="1583272074550" />
-    <state width="1324" height="253" key="GridCell.Tab.0.left" timestamp="1583272074549">
+    <state width="1324" height="253" key="GridCell.Tab.0.center/1366.0.1366.768/0.0.1366.728@1366.0.1366.768" timestamp="1583324679062" />
+    <state width="1324" height="253" key="GridCell.Tab.0.left" timestamp="1583324679062">
       <screen x="1366" y="0" width="1366" height="768" />
     </state>
     <state width="1324" height="172" key="GridCell.Tab.0.left/1366.0.1366.768/0.0.1366.728@0.0.1366.728" timestamp="1582910787942" />
-    <state width="1324" height="253" key="GridCell.Tab.0.left/1366.0.1366.768/0.0.1366.728@1366.0.1366.768" timestamp="1583272074549" />
-    <state width="1324" height="253" key="GridCell.Tab.0.right" timestamp="1583272074550">
+    <state width="1324" height="253" key="GridCell.Tab.0.left/1366.0.1366.768/0.0.1366.728@1366.0.1366.768" timestamp="1583324679062" />
+    <state width="1324" height="253" key="GridCell.Tab.0.right" timestamp="1583324679062">
       <screen x="1366" y="0" width="1366" height="768" />
     </state>
     <state width="1324" height="172" key="GridCell.Tab.0.right/1366.0.1366.768/0.0.1366.728@0.0.1366.728" timestamp="1582910787942" />
-    <state width="1324" height="253" key="GridCell.Tab.0.right/1366.0.1366.768/0.0.1366.728@1366.0.1366.768" timestamp="1583272074550" />
+    <state width="1324" height="253" key="GridCell.Tab.0.right/1366.0.1366.768/0.0.1366.728@1366.0.1366.768" timestamp="1583324679062" />
     <state width="1324" height="216" key="GridCell.Tab.1.bottom" timestamp="1583239683772">
       <screen x="1366" y="0" width="1366" height="768" />
     </state>
@@ -216,10 +232,14 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="374" y="0" width="992" height="728" key="SettingsEditor/1366.0.1366.768/0.0.1366.728@1366.0.1366.768" timestamp="1582889780047" />
-    <state x="1732" y="190" key="com.intellij.ide.util.TipDialog" timestamp="1583233348529">
+    <state x="1732" y="190" key="com.intellij.ide.util.TipDialog" timestamp="1583323845603">
       <screen x="1366" y="0" width="1366" height="768" />
     </state>
-    <state x="1732" y="190" key="com.intellij.ide.util.TipDialog/1366.0.1366.768/0.0.1366.728@1366.0.1366.768" timestamp="1583233348529" />
+    <state x="1732" y="190" key="com.intellij.ide.util.TipDialog/1366.0.1366.768/0.0.1366.728@1366.0.1366.768" timestamp="1583323845603" />
+    <state x="1842" y="54" width="404" height="613" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1583324382659">
+      <screen x="1366" y="0" width="1366" height="768" />
+    </state>
+    <state x="1842" y="54" width="404" height="613" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/1366.0.1366.768/0.0.1366.728@1366.0.1366.768" timestamp="1583324382659" />
     <state x="1794" y="0" width="500" height="728" key="refactoring.ChangeSignatureDialog" timestamp="1583271152037">
       <screen x="1366" y="0" width="1366" height="768" />
     </state>
