@@ -1,0 +1,3 @@
+Visitor is a behavioural design pattern that lets you define a new
+operation without changing the classes of the objects on which it
+operates.

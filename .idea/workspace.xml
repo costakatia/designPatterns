@@ -2,15 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fdeacd22-c914-4878-bffc-8723f61e52ed" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Behavioural/mediator/Component.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Behavioural/mediator/ComponentA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Behavioural/mediator/ComponentB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Behavioural/mediator/ConcreteMediator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Behavioural/mediator/Definition" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Behavioural/mediator/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Behavioural/mediator/Mediator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Behavioural/visitor/BoardBlock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Behavioural/visitor/ChessComponent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Behavioural/visitor/ConsoleVisitor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Behavioural/visitor/Definiton" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Behavioural/visitor/Piece.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Behavioural/visitor/Visitor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Behavioural/visitor/main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Behavioural/state/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Behavioural/state/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Behavioural/state/MultiThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Behavioural/state/MyThread.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,15 +56,16 @@
     <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="Behavioural.state" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java/state" />
       <recent name="$PROJECT_DIR$/src/main/java/Behavioural/State" />
     </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="Behavioural.visitor" />
+      <recent name="Behavioural.state" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.Main (2)">
+  <component name="RunManager" selected="Application.main">
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Structural.singleton.bridge.Client" />
       <module name="java8" />
@@ -82,19 +85,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Structural.singleton.composite.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Hunter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Structural.singleton.FlyweigthDesing.Hunter" />
-      <module name="java8" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Structural.singleton.FlyweigthDesing.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -141,13 +131,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Behavioural.visitor.main" />
+      <module name="java8" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Behavioural.visitor.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.main" />
         <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Client" />
         <item itemvalue="Application.ClientDemo" />
-        <item itemvalue="Application.Hunter" />
       </list>
     </recent_temporary>
   </component>
@@ -163,51 +166,67 @@
       <updated>1582887647952</updated>
       <workItem from="1582887649497" duration="9819000" />
       <workItem from="1583233347451" duration="24191000" />
-      <workItem from="1583323839317" duration="649000" />
+      <workItem from="1583323839317" duration="3647000" />
     </task>
+    <task id="LOCAL-00001" summary="Mediator Pattern">
+      <created>1583324740583</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1583324740583</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Mediator Pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="Mediator Pattern" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1644" y="24" width="800" height="672" key="#Project_Structure" timestamp="1582889379759">
       <screen x="1366" y="0" width="1366" height="768" />
     </state>
     <state x="1644" y="24" width="800" height="672" key="#Project_Structure/1366.0.1366.768/0.0.1366.728@1366.0.1366.768" timestamp="1582889379759" />
-    <state x="1786" y="169" width="515" height="383" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1583258041189">
+    <state x="1786" y="169" width="515" height="383" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1583324896749">
       <screen x="1366" y="0" width="1366" height="768" />
     </state>
-    <state x="1786" y="169" width="515" height="383" key="#com.intellij.fileTypes.FileTypeChooser/1366.0.1366.768/0.0.1366.728@1366.0.1366.768" timestamp="1583258041189" />
-    <state x="1857" y="82" width="488" height="557" key="#com.intellij.ide.util.MemberChooser" timestamp="1583320584795">
+    <state x="1786" y="169" width="515" height="383" key="#com.intellij.fileTypes.FileTypeChooser/1366.0.1366.768/0.0.1366.728@1366.0.1366.768" timestamp="1583324896749" />
+    <state x="1857" y="82" width="488" height="557" key="#com.intellij.ide.util.MemberChooser" timestamp="1583328493035">
       <screen x="1366" y="0" width="1366" height="768" />
     </state>
     <state x="491" y="78" key="#com.intellij.ide.util.MemberChooser/1366.0.1366.768/0.0.1366.728@0.0.1366.728" timestamp="1583166295497" />
-    <state x="1857" y="82" width="488" height="557" key="#com.intellij.ide.util.MemberChooser/1366.0.1366.768/0.0.1366.728@1366.0.1366.768" timestamp="1583320584795" />
+    <state x="1857" y="82" width="488" height="557" key="#com.intellij.ide.util.MemberChooser/1366.0.1366.768/0.0.1366.728@1366.0.1366.768" timestamp="1583328493035" />
     <state x="1725" y="291" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1583263407479">
       <screen x="1366" y="0" width="1366" height="768" />
     </state>
     <state x="1725" y="291" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/1366.0.1366.768/0.0.1366.728@1366.0.1366.768" timestamp="1583263407479" />
-    <state width="1324" height="253" key="GridCell.Tab.0.bottom" timestamp="1583324679062">
+    <state x="1648" y="0" width="791" height="728" key="CommitChangelistDialog2" timestamp="1583329018604">
+      <screen x="1366" y="0" width="1366" height="768" />
+    </state>
+    <state x="1648" y="0" width="791" height="728" key="CommitChangelistDialog2/1366.0.1366.768/0.0.1366.728@1366.0.1366.768" timestamp="1583329018604" />
+    <state width="1324" height="253" key="GridCell.Tab.0.bottom" timestamp="1583329024429">
       <screen x="1366" y="0" width="1366" height="768" />
     </state>
     <state width="1324" height="172" key="GridCell.Tab.0.bottom/1366.0.1366.768/0.0.1366.728@0.0.1366.728" timestamp="1582910787942" />
-    <state width="1324" height="253" key="GridCell.Tab.0.bottom/1366.0.1366.768/0.0.1366.728@1366.0.1366.768" timestamp="1583324679062" />
-    <state width="1324" height="253" key="GridCell.Tab.0.center" timestamp="1583324679062">
+    <state width="1324" height="253" key="GridCell.Tab.0.bottom/1366.0.1366.768/0.0.1366.728@1366.0.1366.768" timestamp="1583329024429" />
+    <state width="1324" height="253" key="GridCell.Tab.0.center" timestamp="1583329024429">
       <screen x="1366" y="0" width="1366" height="768" />
     </state>
     <state width="1324" height="172" key="GridCell.Tab.0.center/1366.0.1366.768/0.0.1366.728@0.0.1366.728" timestamp="1582910787942" />
-    <state width="1324" height="253" key="GridCell.Tab.0.center/1366.0.1366.768/0.0.1366.728@1366.0.1366.768" timestamp="1583324679062" />
-    <state width="1324" height="253" key="GridCell.Tab.0.left" timestamp="1583324679062">
+    <state width="1324" height="253" key="GridCell.Tab.0.center/1366.0.1366.768/0.0.1366.728@1366.0.1366.768" timestamp="1583329024429" />
+    <state width="1324" height="253" key="GridCell.Tab.0.left" timestamp="1583329024429">
       <screen x="1366" y="0" width="1366" height="768" />
     </state>
     <state width="1324" height="172" key="GridCell.Tab.0.left/1366.0.1366.768/0.0.1366.728@0.0.1366.728" timestamp="1582910787942" />
-    <state width="1324" height="253" key="GridCell.Tab.0.left/1366.0.1366.768/0.0.1366.728@1366.0.1366.768" timestamp="1583324679062" />
-    <state width="1324" height="253" key="GridCell.Tab.0.right" timestamp="1583324679062">
+    <state width="1324" height="253" key="GridCell.Tab.0.left/1366.0.1366.768/0.0.1366.728@1366.0.1366.768" timestamp="1583329024429" />
+    <state width="1324" height="253" key="GridCell.Tab.0.right" timestamp="1583329024429">
       <screen x="1366" y="0" width="1366" height="768" />
     </state>
     <state width="1324" height="172" key="GridCell.Tab.0.right/1366.0.1366.768/0.0.1366.728@0.0.1366.728" timestamp="1582910787942" />
-    <state width="1324" height="253" key="GridCell.Tab.0.right/1366.0.1366.768/0.0.1366.728@1366.0.1366.768" timestamp="1583324679062" />
+    <state width="1324" height="253" key="GridCell.Tab.0.right/1366.0.1366.768/0.0.1366.728@1366.0.1366.768" timestamp="1583329024429" />
     <state width="1324" height="216" key="GridCell.Tab.1.bottom" timestamp="1583239683772">
       <screen x="1366" y="0" width="1366" height="768" />
     </state>
@@ -232,6 +251,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="374" y="0" width="992" height="728" key="SettingsEditor/1366.0.1366.768/0.0.1366.728@1366.0.1366.768" timestamp="1582889780047" />
+    <state x="1644" y="99" width="800" height="523" key="Vcs.Push.Dialog.v2" timestamp="1583324790031">
+      <screen x="1366" y="0" width="1366" height="768" />
+    </state>
+    <state x="1644" y="99" width="800" height="523" key="Vcs.Push.Dialog.v2/1366.0.1366.768/0.0.1366.728@1366.0.1366.768" timestamp="1583324790031" />
     <state x="1732" y="190" key="com.intellij.ide.util.TipDialog" timestamp="1583323845603">
       <screen x="1366" y="0" width="1366" height="768" />
     </state>
