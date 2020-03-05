@@ -1,0 +1,4 @@
+Strategy is a behavioral design pattern
+that lets you define family of family of algorithms, encapsulate each
+one and make the interchangeable. Strategy lets the algorithm vary
+independently form the clients that use it.

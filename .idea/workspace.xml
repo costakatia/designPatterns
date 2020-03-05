@@ -2,14 +2,38 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fdeacd22-c914-4878-bffc-8723f61e52ed" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Behavioural/memento/CareTaker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Behavioural/memento/Definition" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Behavioural/memento/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Behavioural/memento/Memento.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Behavioural/memento/Originator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Behavioural/command/Button.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Behavioural/command/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Behavioural/command/Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Behavioural/command/Definiton" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Behavioural/command/Invoker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Behavioural/command/Light.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Behavioural/command/Motor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Behavioural/command/Receiver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Behavioural/command/TurnOnCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Behavioural/iterator/CustomInterableCollection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Behavioural/iterator/CustomIterableCollectionIterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Behavioural/iterator/Definition" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Behavioural/iterator/IterableCollection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Behavioural/iterator/Iterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Behavioural/iterator/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Behavioural/observer/Definiton" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Behavioural/observer/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Behavioural/observer/Observer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Behavioural/observer/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Behavioural/observer/RadioStation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Behavioural/observer/Subject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Behavioural/strategy/BubbleSortStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Behavioural/strategy/Context.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Behavioural/strategy/Definition" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Behavioural/strategy/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Behavioural/strategy/MergeSortStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Behavioural/strategy/Strategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Behavioural/template/Definition" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Behavioural/template/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Behavioural/template/PizzaMaker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Behavioural/template/SimpleCheeseCornPizza.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Behavioural/visitor/ConsoleVisitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Behavioural/visitor/ConsoleVisitor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Behavioural/visitor/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Behavioural/visitor/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,8 +44,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -62,13 +86,26 @@
       <recent name="Behavioural.state" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main (3)">
+  <component name="RunManager" selected="Application.Client">
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Structural.singleton.bridge.Client" />
+      <option name="MAIN_CLASS_NAME" value="Behavioural.command.Client" />
       <module name="java8" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Structural.singleton.bridge.*" />
+          <option name="PATTERN" value="Behavioural.command.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Behavioural.strategy.Demo" />
+      <module name="java8" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Behavioural.strategy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -77,11 +114,11 @@
       </method>
     </configuration>
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Behavioural.state.Main" />
+      <option name="MAIN_CLASS_NAME" value="Behavioural.iterator.Main" />
       <module name="java8" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Behavioural.state.*" />
+          <option name="PATTERN" value="Behavioural.iterator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -89,12 +126,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Behavioural.mediator.Main" />
+    <configuration name="Main (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Behavioural.template.Main" />
       <module name="java8" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Behavioural.mediator.*" />
+          <option name="PATTERN" value="Behavioural.template.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -102,25 +139,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Behavioural.memento.Main" />
+    <configuration name="Main (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Behavioural.observer.Main" />
       <module name="java8" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Behavioural.memento.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Behavioural.visitor.Main" />
-      <module name="java8" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Behavioural.visitor.*" />
+          <option name="PATTERN" value="Behavioural.observer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -143,11 +167,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main (3)" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Main (2)" />
-        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Client" />
+        <item itemvalue="Application.Demo" />
+        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.Main (5)" />
+        <item itemvalue="Application.Main (4)" />
       </list>
     </recent_temporary>
   </component>
@@ -163,7 +187,7 @@
       <updated>1582887647952</updated>
       <workItem from="1582887649497" duration="9819000" />
       <workItem from="1583233347451" duration="24191000" />
-      <workItem from="1583323839317" duration="10117000" />
+      <workItem from="1583323839317" duration="28564000" />
     </task>
     <task id="LOCAL-00001" summary="Mediator Pattern">
       <created>1583324740583</created>
@@ -179,7 +203,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583329049272</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Memento Pattern">
+      <created>1583347504652</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1583347504652</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -188,7 +219,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Mediator Pattern" />
     <MESSAGE value="Visitor Pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="Visitor Pattern" />
+    <MESSAGE value="Memento Pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="Memento Pattern" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1644" y="24" width="800" height="672" key="#Project_Structure" timestamp="1582889379759">
@@ -199,55 +231,55 @@
       <screen x="1366" y="0" width="1366" height="768" />
     </state>
     <state x="1786" y="169" width="515" height="383" key="#com.intellij.fileTypes.FileTypeChooser/1366.0.1366.768/0.0.1366.728@1366.0.1366.768" timestamp="1583324896749" />
-    <state x="1857" y="82" width="488" height="557" key="#com.intellij.ide.util.MemberChooser" timestamp="1583344633137">
+    <state x="1857" y="82" width="488" height="557" key="#com.intellij.ide.util.MemberChooser" timestamp="1583435564799">
       <screen x="1366" y="0" width="1366" height="768" />
     </state>
     <state x="491" y="78" key="#com.intellij.ide.util.MemberChooser/1366.0.1366.768/0.0.1366.728@0.0.1366.728" timestamp="1583166295497" />
-    <state x="1857" y="82" width="488" height="557" key="#com.intellij.ide.util.MemberChooser/1366.0.1366.768/0.0.1366.728@1366.0.1366.768" timestamp="1583344633137" />
+    <state x="1857" y="82" width="488" height="557" key="#com.intellij.ide.util.MemberChooser/1366.0.1366.768/0.0.1366.728@1366.0.1366.768" timestamp="1583435564799" />
     <state x="1725" y="291" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1583263407479">
       <screen x="1366" y="0" width="1366" height="768" />
     </state>
     <state x="1725" y="291" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/1366.0.1366.768/0.0.1366.728@1366.0.1366.768" timestamp="1583263407479" />
-    <state x="1648" y="0" width="791" height="728" key="CommitChangelistDialog2" timestamp="1583329049156">
+    <state x="1648" y="0" width="791" height="728" key="CommitChangelistDialog2" timestamp="1583443826736">
       <screen x="1366" y="0" width="1366" height="768" />
     </state>
-    <state x="1648" y="0" width="791" height="728" key="CommitChangelistDialog2/1366.0.1366.768/0.0.1366.728@1366.0.1366.768" timestamp="1583329049156" />
-    <state width="1324" height="253" key="GridCell.Tab.0.bottom" timestamp="1583347361340">
+    <state x="1648" y="0" width="791" height="728" key="CommitChangelistDialog2/1366.0.1366.768/0.0.1366.728@1366.0.1366.768" timestamp="1583443826736" />
+    <state width="1324" height="253" key="GridCell.Tab.0.bottom" timestamp="1583443826840">
       <screen x="1366" y="0" width="1366" height="768" />
     </state>
     <state width="1324" height="172" key="GridCell.Tab.0.bottom/1366.0.1366.768/0.0.1366.728@0.0.1366.728" timestamp="1582910787942" />
-    <state width="1324" height="253" key="GridCell.Tab.0.bottom/1366.0.1366.768/0.0.1366.728@1366.0.1366.768" timestamp="1583347361340" />
-    <state width="1324" height="253" key="GridCell.Tab.0.center" timestamp="1583347361340">
+    <state width="1324" height="253" key="GridCell.Tab.0.bottom/1366.0.1366.768/0.0.1366.728@1366.0.1366.768" timestamp="1583443826840" />
+    <state width="1324" height="253" key="GridCell.Tab.0.center" timestamp="1583443826840">
       <screen x="1366" y="0" width="1366" height="768" />
     </state>
     <state width="1324" height="172" key="GridCell.Tab.0.center/1366.0.1366.768/0.0.1366.728@0.0.1366.728" timestamp="1582910787942" />
-    <state width="1324" height="253" key="GridCell.Tab.0.center/1366.0.1366.768/0.0.1366.728@1366.0.1366.768" timestamp="1583347361340" />
-    <state width="1324" height="253" key="GridCell.Tab.0.left" timestamp="1583347361340">
+    <state width="1324" height="253" key="GridCell.Tab.0.center/1366.0.1366.768/0.0.1366.728@1366.0.1366.768" timestamp="1583443826840" />
+    <state width="1324" height="253" key="GridCell.Tab.0.left" timestamp="1583443826840">
       <screen x="1366" y="0" width="1366" height="768" />
     </state>
     <state width="1324" height="172" key="GridCell.Tab.0.left/1366.0.1366.768/0.0.1366.728@0.0.1366.728" timestamp="1582910787942" />
-    <state width="1324" height="253" key="GridCell.Tab.0.left/1366.0.1366.768/0.0.1366.728@1366.0.1366.768" timestamp="1583347361340" />
-    <state width="1324" height="253" key="GridCell.Tab.0.right" timestamp="1583347361340">
+    <state width="1324" height="253" key="GridCell.Tab.0.left/1366.0.1366.768/0.0.1366.728@1366.0.1366.768" timestamp="1583443826840" />
+    <state width="1324" height="253" key="GridCell.Tab.0.right" timestamp="1583443826840">
       <screen x="1366" y="0" width="1366" height="768" />
     </state>
     <state width="1324" height="172" key="GridCell.Tab.0.right/1366.0.1366.768/0.0.1366.728@0.0.1366.728" timestamp="1582910787942" />
-    <state width="1324" height="253" key="GridCell.Tab.0.right/1366.0.1366.768/0.0.1366.728@1366.0.1366.768" timestamp="1583347361340" />
-    <state width="1324" height="216" key="GridCell.Tab.1.bottom" timestamp="1583239683772">
+    <state width="1324" height="253" key="GridCell.Tab.0.right/1366.0.1366.768/0.0.1366.728@1366.0.1366.768" timestamp="1583443826840" />
+    <state width="1324" height="216" key="GridCell.Tab.1.bottom" timestamp="1583430696272">
       <screen x="1366" y="0" width="1366" height="768" />
     </state>
-    <state width="1324" height="216" key="GridCell.Tab.1.bottom/1366.0.1366.768/0.0.1366.728@1366.0.1366.768" timestamp="1583239683772" />
-    <state width="1324" height="216" key="GridCell.Tab.1.center" timestamp="1583239683772">
+    <state width="1324" height="216" key="GridCell.Tab.1.bottom/1366.0.1366.768/0.0.1366.728@1366.0.1366.768" timestamp="1583430696272" />
+    <state width="1324" height="216" key="GridCell.Tab.1.center" timestamp="1583430696272">
       <screen x="1366" y="0" width="1366" height="768" />
     </state>
-    <state width="1324" height="216" key="GridCell.Tab.1.center/1366.0.1366.768/0.0.1366.728@1366.0.1366.768" timestamp="1583239683772" />
-    <state width="1324" height="216" key="GridCell.Tab.1.left" timestamp="1583239683772">
+    <state width="1324" height="216" key="GridCell.Tab.1.center/1366.0.1366.768/0.0.1366.728@1366.0.1366.768" timestamp="1583430696272" />
+    <state width="1324" height="216" key="GridCell.Tab.1.left" timestamp="1583430696272">
       <screen x="1366" y="0" width="1366" height="768" />
     </state>
-    <state width="1324" height="216" key="GridCell.Tab.1.left/1366.0.1366.768/0.0.1366.728@1366.0.1366.768" timestamp="1583239683772" />
-    <state width="1324" height="216" key="GridCell.Tab.1.right" timestamp="1583239683772">
+    <state width="1324" height="216" key="GridCell.Tab.1.left/1366.0.1366.768/0.0.1366.728@1366.0.1366.768" timestamp="1583430696272" />
+    <state width="1324" height="216" key="GridCell.Tab.1.right" timestamp="1583430696272">
       <screen x="1366" y="0" width="1366" height="768" />
     </state>
-    <state width="1324" height="216" key="GridCell.Tab.1.right/1366.0.1366.768/0.0.1366.728@1366.0.1366.768" timestamp="1583239683772" />
+    <state width="1324" height="216" key="GridCell.Tab.1.right/1366.0.1366.768/0.0.1366.728@1366.0.1366.768" timestamp="1583430696272" />
     <state x="1582" y="21" width="924" height="679" key="Maven.ArtifactSearchDialog" timestamp="1583270992275">
       <screen x="1366" y="0" width="1366" height="768" />
     </state>
@@ -256,10 +288,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="374" y="0" width="992" height="728" key="SettingsEditor/1366.0.1366.768/0.0.1366.728@1366.0.1366.768" timestamp="1582889780047" />
-    <state x="1644" y="99" width="800" height="523" key="Vcs.Push.Dialog.v2" timestamp="1583329059124">
+    <state x="1644" y="99" width="800" height="523" key="Vcs.Push.Dialog.v2" timestamp="1583347518000">
       <screen x="1366" y="0" width="1366" height="768" />
     </state>
-    <state x="1644" y="99" width="800" height="523" key="Vcs.Push.Dialog.v2/1366.0.1366.768/0.0.1366.728@1366.0.1366.768" timestamp="1583329059124" />
+    <state x="1644" y="99" width="800" height="523" key="Vcs.Push.Dialog.v2/1366.0.1366.768/0.0.1366.728@1366.0.1366.768" timestamp="1583347518000" />
     <state x="1732" y="190" key="com.intellij.ide.util.TipDialog" timestamp="1583323845603">
       <screen x="1366" y="0" width="1366" height="768" />
     </state>
@@ -289,6 +321,16 @@
           <url>file://$PROJECT_DIR$/src/main/java/Structural/FlyweigthDesing/ShotGun.java</url>
           <line>7</line>
           <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Behavioural/iterator/Main.java</url>
+          <line>4</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Behavioural/iterator/CustomInterableCollection.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="12" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
