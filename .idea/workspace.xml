@@ -2,18 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fdeacd22-c914-4878-bffc-8723f61e52ed" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Behavioural/chainResponsabiity/AbstractHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Behavioural/chainResponsabiity/AmbulanceHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Behavioural/chainResponsabiity/CivilianVehicalHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Behavioural/chainResponsabiity/Definiton" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Behavioural/chainResponsabiity/FireTruckHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Behavioural/chainResponsabiity/Handler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Behavioural/chainResponsabiity/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Behavioural/chainResponsabiity/PoliceSUVHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Creational/Definition" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Creational/factoryMethod/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Creational/factoryMethod/AnimalFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Creational/factoryMethod/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Creational/factoryMethod/Definiton" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Creational/factoryMethod/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Creational/factoryMethod/PetStore.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Structural/singleton/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Creational/singleton/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Structural/singleton/MyInstance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Creational/singleton/MyInstance.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,13 +52,14 @@
     <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="Creational.factoryMethod" />
+      <recent name="Behavioural.visitor" />
+      <recent name="Behavioural.state" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java/state" />
       <recent name="$PROJECT_DIR$/src/main/java/Behavioural/State" />
-    </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="Behavioural.visitor" />
-      <recent name="Behavioural.state" />
     </key>
   </component>
   <component name="RunManager" selected="Application.Main (2)">
@@ -156,7 +152,7 @@
       <workItem from="1583233347451" duration="24191000" />
       <workItem from="1583323839317" duration="28564000" />
       <workItem from="1583492992904" duration="5949000" />
-      <workItem from="1583521572725" duration="562000" />
+      <workItem from="1583521572725" duration="2154000" />
     </task>
     <task id="LOCAL-00001" summary="Mediator Pattern">
       <created>1583324740583</created>
@@ -179,7 +175,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583347504652</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="06/03/2020">
+      <created>1583522156925</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1583522156925</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -189,7 +192,8 @@
     <MESSAGE value="Mediator Pattern" />
     <MESSAGE value="Visitor Pattern" />
     <MESSAGE value="Memento Pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="Memento Pattern" />
+    <MESSAGE value="06/03/2020" />
+    <option name="LAST_COMMIT_MESSAGE" value="06/03/2020" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1644" y="24" width="800" height="672" key="#Project_Structure" timestamp="1582889379759">
@@ -209,10 +213,10 @@
       <screen x="1366" y="0" width="1366" height="768" />
     </state>
     <state x="1725" y="291" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/1366.0.1366.768/0.0.1366.728@1366.0.1366.768" timestamp="1583499159752" />
-    <state x="1648" y="0" width="791" height="728" key="CommitChangelistDialog2" timestamp="1583443866450">
+    <state x="1648" y="0" width="791" height="728" key="CommitChangelistDialog2" timestamp="1583522156482">
       <screen x="1366" y="0" width="1366" height="768" />
     </state>
-    <state x="1648" y="0" width="791" height="728" key="CommitChangelistDialog2/1366.0.1366.768/0.0.1366.728@1366.0.1366.768" timestamp="1583443866450" />
+    <state x="1648" y="0" width="791" height="728" key="CommitChangelistDialog2/1366.0.1366.768/0.0.1366.728@1366.0.1366.768" timestamp="1583522156482" />
     <state width="1324" height="253" key="GridCell.Tab.0.bottom" timestamp="1583497294577">
       <screen x="1366" y="0" width="1366" height="768" />
     </state>
@@ -257,10 +261,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="374" y="0" width="992" height="728" key="SettingsEditor/1366.0.1366.768/0.0.1366.728@1366.0.1366.768" timestamp="1582889780047" />
-    <state x="1644" y="99" width="800" height="523" key="Vcs.Push.Dialog.v2" timestamp="1583443876181">
+    <state x="1644" y="99" width="800" height="523" key="Vcs.Push.Dialog.v2" timestamp="1583522168378">
       <screen x="1366" y="0" width="1366" height="768" />
     </state>
-    <state x="1644" y="99" width="800" height="523" key="Vcs.Push.Dialog.v2/1366.0.1366.768/0.0.1366.728@1366.0.1366.768" timestamp="1583443876181" />
+    <state x="1644" y="99" width="800" height="523" key="Vcs.Push.Dialog.v2/1366.0.1366.768/0.0.1366.728@1366.0.1366.768" timestamp="1583522168378" />
     <state x="1732" y="190" key="com.intellij.ide.util.TipDialog" timestamp="1583521577659">
       <screen x="1366" y="0" width="1366" height="768" />
     </state>
