@@ -1,4 +1,4 @@
-package Structural.singleton;
+package Creational.singleton;
 
 public enum MyInstance {
     INSTANCE;
