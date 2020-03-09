@@ -1,4 +1,4 @@
-package Creational.factoryMethod;
+package Creational.simplefactoryMethod;
 
 public abstract class Animal {
     public void makeSoud() {

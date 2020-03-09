@@ -1,7 +1,8 @@
-package Creational.factoryMethod;
+package Creational.simplefactoryMethod;
 
-public class AnimalFactory {
-    public static  Animal createAnimal(String petName, String petType){
+public class PetStoreFactory implements AnimalFactory {
+    @Override
+    public Animal createAnimal(String petName, String petType) {
         Animal pet;
         if(petType.equals("Dog")){
             pet = new Dog(petName);
