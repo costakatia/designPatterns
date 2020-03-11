@@ -1,17 +1,11 @@
 package Creational.simplefactoryMethod;
 
-import java.beans.ConstructorProperties;
-import java.io.FileNotFoundException;
 import java.io.FileReader;
-import java.io.IOException;
 import java.lang.reflect.Constructor;
-import java.lang.reflect.InvocationTargetException;
 import java.util.Properties;
 
 public class PetStore {
 
-    private static String propertyFile = "/home/usertqi/Documentos/designPatterns/src/main/java/Creational/simplefactoryMethod/app.properties";
-    private static String factoryKey = "petstore.factory.type";
     private AnimalFactory factory;
 
     public PetStore(AnimalFactory factory){
@@ -21,17 +15,19 @@ public class PetStore {
 
     public static void main(String[] args) {
         PetStore petStore = new PetStore(getFactoryFromProperty() );
-        Animal pet = petStore.orderPet("Dollar", "Dog");
+        Animal pet = petStore.orderPet();
         pet.makeSoud();
         pet.moveAround();
 
     }
     private static AnimalFactory getFactoryFromProperty() {
+        String propertyFile = "/home/usertqi/Documentos/designPatterns/src/main/java/Creational/simplefactoryMethod/app.properties";
         try (FileReader reader = new FileReader(propertyFile))
         {
             Properties p = new Properties();
             p.load(reader);
 
+            String factoryKey = "petstore.factory.type";
             Class<?> clazz = Class.forName(p.getProperty(factoryKey));
             Constructor<?> constructor = clazz.getConstructor();
 
@@ -42,8 +38,8 @@ public class PetStore {
 
 
     }
-    private Animal orderPet(String petName, String petType)
+    private Animal orderPet()
     {
-        return factory.createAnimal(petName,petType );
+        return factory.createAnimal("Dollar", "Dog");
     }
 }

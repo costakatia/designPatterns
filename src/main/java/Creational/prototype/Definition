@@ -1,0 +1,2 @@
+    Its a creational design that lets you produce new objects by copying existing
+    ones, without compromising their internals.

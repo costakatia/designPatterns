@@ -1,0 +1,3 @@
+    It's a creational design that provides an interface which encapsulate object creation,
+    and lets you produce families of related objects without specifying their concrete
+    classes.
